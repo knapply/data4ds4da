@@ -6,7 +6,7 @@
 ^pkgdown$
 ^data-raw$
 ^_pkgdown].yml$
-^.travis].yml$
+^\.travis\.yml$
 ^codecov\.yml$
 ^appveyor\.yml$
 ^\.github$
