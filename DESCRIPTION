@@ -19,7 +19,8 @@ Authors@R: c(
            )
 License: GPL-3 + file LICENSE
 Depends: R (>= 3.2.0)
-Suggests: 
+Suggests:
+    covr,
     dplyr,
     knitr,
     readr,
