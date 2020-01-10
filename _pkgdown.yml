@@ -5,7 +5,7 @@ url: https://knapply.github.io/data4ds4da
 template:
   params:
     bootswatch: cerulean
-    ganalytics: UA-140885143-4
+    # ganalytics:
 
 
 navbar:
