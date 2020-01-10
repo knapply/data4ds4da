@@ -1,0 +1,33 @@
+Package: data4ds4da
+Title: Data for Data Science for Defense Analysis
+Description: A collection of data sets used for the course Data Science for Defense Analysis.
+Version: 0.0.0.9000
+Authors@R: c(
+            person(given = "Brendan", family = "Knapp",
+                   role = c("aut", "cre"),
+                   email = "brendan.knapp@nps.edu",
+                   comment = c(ORCID = "0000-0003-3284-4972"))
+           ,
+           person(given = "Christopher", family = "Callaghan",
+                  role = c("aut"),
+                  email = "cjcallag@nps.edu")
+           #, template to add other contributors
+           #person(given = "<FIRST NAME>", family = "<LAST NAME>",
+           #       role = c("ctb"),
+           #      email = "<EMAIL ADDDRESS>",
+           #      comment = c(ORCID = "<ORCID ID OR NULL>"))
+           )
+License: GPL-3 + file LICENSE
+Depends: R (>= 3.2.0)
+Suggests: 
+    dplyr,
+    knitr,
+    readr,
+    tibble
+URL: https://github.com/knapply/data4ds4da, https://knapply.github.io/data4ds4da
+BugReports: https://github.com/knapply/data4ds4da/issues
+RoxygenNote: 7.0.2
+Encoding: UTF-8
+LazyData: yes
+Roxygen: list(markdown = TRUE)
+VignetteBuilder: knitr
