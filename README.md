@@ -17,8 +17,6 @@ bytes](https://img.shields.io/github/languages/code-size/knapply/data4ds4da.svg)
 [![HitCount](http://hits.dwyl.io/knapply/data4ds4da.svg)](http://hits.dwyl.io/knapply/data4ds4da)
 <!-- badges: end -->
 
-Data for the course Data Science for Defense Analysis
-
 ## Get in Touch
 
 [![Twitter
@@ -27,3 +25,16 @@ URL](https://img.shields.io/twitter/url/https/twitter.com/fold_left.svg?style=so
 URL](https://img.shields.io/twitter/url/https/twitter.com/fold_left.svg?style=social&label=Follow%20%40knapply_)](https://twitter.com/knapply_)
 [![Twitter
 URL](https://img.shields.io/twitter/url/https/twitter.com/fold_left.svg?style=social&label=Follow%20%40cjcallag)](https://twitter.com/cjcallag)
+
+## Introduction
+
+`{data4ds4da}` is an R package containing data sets for the course
+**Data Science for Defense Analysis**.
+
+## Installation
+
+``` r
+if (!requireNamespace("remotes", quietly = TRUE)) install.packages("remotes")
+
+remotes::install_github("knapply/data4ds4da")
+```
