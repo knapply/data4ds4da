@@ -10,6 +10,7 @@
 #' 
 #' @examples 
 #' ucdp_19.1_df
+#' 
 #' dplyr::glimpse(ucdp_19.1_df)
 #' 
 "ucdp_19.1_df"

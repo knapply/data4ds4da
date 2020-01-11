@@ -11,7 +11,7 @@ codebook_url <- "https://ucdp.uu.se/downloads/ged/ged191.pdf"
 
 # get data ===============================================================================
 temp_file <- tempfile()
-target_dir <- "inst/ucdp_19.1/"
+target_dir <- "inst/datasets/ucdp_19.1/"
 download.file(data_url, destfile = temp_file)
 unzip(temp_file, files = "ged191.csv", exdir = target_dir)
 
@@ -19,7 +19,7 @@ unzip(temp_file, files = "ged191.csv", exdir = target_dir)
 download.file(codebook_url, destfile = paste0(target_dir, "ged191.pdf"))
 
 # prep data ==============================================================================
-data_file <- "inst/ucdp_19.1/ged191.csv"
+data_file <- "inst/datasets/ucdp_19.1/ged191.csv"
 
 ucdp_19.1_df <- tibble::as_tibble(readr::read_csv(data_file, guess_max = Inf))
 

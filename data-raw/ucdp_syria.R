@@ -13,7 +13,7 @@ codebook_url <- "https://ucdp.uu.se/downloads/ged/ged191.pdf"
 
 # get data ===============================================================================
 temp_file <- tempfile()
-target_dir <- "inst/ucdp_syria/"
+target_dir <- "inst/datasets/ucdp_syria/"
 download.file(data_url, destfile = temp_file)
 unzip(temp_file, files = "ged_syria.csv", exdir = target_dir)
 
@@ -21,7 +21,7 @@ unzip(temp_file, files = "ged_syria.csv", exdir = target_dir)
 download.file(codebook_url, destfile = paste0(target_dir, "ged191.pdf"))
 
 # prep data ==============================================================================
-data_file <- "inst/ucdp_syria/ged_syria.csv"
+data_file <- "inst/datasets/ucdp_syria/ged_syria.csv"
 
 ucdp_syria_df <- tibble::as_tibble(readr::read_csv(data_file, guess_max = Inf))
 

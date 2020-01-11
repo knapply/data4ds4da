@@ -9,14 +9,14 @@ data_url <- "http://www.matthewfuhrmann.com/uploads/2/5/8/2/25820564/nca_dataset
 codebook_url <- "http://www.matthewfuhrmann.com/uploads/2/5/8/2/25820564/nca_codebook.pdf"
 
 # get data ===============================================================================
-target_dir <- "inst/nca/"
+target_dir <- "inst/datasets/nca/"
 download.file(data_url, destfile = paste0(target_dir, "nca_dataset.dta"))
 
 # get codebook ===========================================================================
 download.file(codebook_url, destfile = paste0(target_dir, "nca_codebook.pdf"))
 
 # prep data ==============================================================================
-data_file <- "inst/nca/nca_dataset.dta"
+data_file <- "inst/datasets/nca/nca_dataset.dta"
 
 library(data.table)
 

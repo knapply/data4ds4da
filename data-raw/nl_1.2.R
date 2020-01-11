@@ -9,14 +9,14 @@ data_url <- "http://www.matthewfuhrmann.com/uploads/2/5/8/2/25820564/nl_dataset_
 codebook_url <- "http://www.matthewfuhrmann.com/uploads/2/5/8/2/25820564/nl_dataset_-_codebook_2015-1215.pdf"
 
 # get data ===============================================================================
-target_dir <- "inst/nl/"
+target_dir <- "inst/datasets/nl/"
 download.file(data_url, destfile = paste0(target_dir, "nl_dataset_v.1.2.xlsx"))
 
 # get codebook ===========================================================================
 download.file(codebook_url, destfile = paste0(target_dir, "nl_dataset_-_codebook_2015-1215.pdf"))
 
 # prep data ==============================================================================
-data_file <- "inst/nl/nl_dataset_v.1.2.xlsx"
+data_file <- "inst/datasets/nl/nl_dataset_v.1.2.xlsx"
 
 library(data.table)
 nl_1.2_df <- setDT(readxl::read_excel(data_file, guess_max = Inf))

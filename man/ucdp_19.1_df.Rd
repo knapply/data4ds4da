@@ -16,6 +16,7 @@ This dataset is UCDP's most disaggregated dataset, covering individual events of
 }
 \examples{
 ucdp_19.1_df
+
 dplyr::glimpse(ucdp_19.1_df)
 
 }

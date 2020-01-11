@@ -22,14 +22,19 @@ navbar:
 
 
 reference:
-  - title: UCDP Data
+  - title: Uppsala Conflict Data Program (UCDP) Data
     contents:
     - ucdp_19.1_df
     - ucdp_syria_df
-  - title: Matthew Fuhrmann's Nuclear Proliferation Data
+
+  - title: Fuhrmann's Nuclear Proliferation Data
     contents:
     - nl_1.2_df
     - nca_df
+    
+  - title: Center for Nonproliferation Studies (CNS) Data
+    contents:
+    - dprk_missile_tests_df
 
 
 
