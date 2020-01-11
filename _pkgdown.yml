@@ -22,10 +22,14 @@ navbar:
 
 
 reference:
-  - title: UCDP
+  - title: UCDP Data
     contents:
     - ucdp_19.1_df
     - ucdp_syria_df
+  - title: Matthew Fuhrmann's Nuclear Proliferation Data
+    contents:
+    - nl_1.2_df
+    - nca_df
 
 
 
