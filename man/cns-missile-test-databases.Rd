@@ -38,15 +38,19 @@ pakistan_missile_tests_df
 }
 }
 \examples{
+# dprk ================================================================================
 dprk_missile_tests_df
 dplyr::glimpse(dprk_missile_tests_df)
 
+# iran ================================================================================ 
 iran_missile_tests_df
 dplyr::glimpse(iran_missile_tests_df)
 
+# india ===============================================================================
 india_missile_tests_df
-dplyr::glimpse(iran_missile_tests_df)
+dplyr::glimpse(india_missile_tests_df)
 
+# pakistan ============================================================================
 pakistan_missile_tests_df
 dplyr::glimpse(pakistan_missile_tests_df)
 }
