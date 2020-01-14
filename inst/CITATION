@@ -1,0 +1,17 @@
+ 
+citHeader("To cite data4ds4da use:")
+
+citEntry(
+  entry        = "Manual",
+  title        = "data4ds4da: Data for Data Science for Defense Analysis",
+  author       = c(as.person("Brendan Knapp"), as.person("Christopher Callaghan")),
+  year         = "2020",
+  note         = "R package version 0.0.0.9000",
+  url          = "https://knapply.github.io/data4ds4da",
+  key          = "data4ds4da-package",
+  textVersion  = paste(
+    "Knapp, B. G. and Callaghan C. J. (2019). data4ds4da: Data for Data Science for Defense Analysis",
+    "R package version 0.0.0.9000",
+    "Retrieved from https://knapply.github.io/data4ds4da"
+  )
+)
