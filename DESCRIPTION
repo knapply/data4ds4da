@@ -21,8 +21,10 @@ License: GPL-3 + file LICENSE
 Depends: R (>= 3.2.0)
 Suggests:
     covr,
+    data.table (>= 1.12.9),
     dplyr,
     knitr,
+    readxl,
     readr,
     tibble
 URL: https://github.com/knapply/data4ds4da, https://knapply.github.io/data4ds4da
