@@ -36,6 +36,10 @@ reference:
     contents:
     - cns-missile-test-databases
     
+  - title: Spaniel and Smith's v-CLEAR Data
+    contents:
+    - v_clear_df
+    
   - title: SIGACTS Data
     contents:
     - bauer-sigacts
