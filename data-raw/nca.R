@@ -2,7 +2,7 @@
 #
 # Date Obtained: 2020-01-10
 # Citations:
-# - FFuhrmann, Matthew. 2012. Atomic Assistance: How "Atoms for Peace" Programs Cause Nuclear Insecurity. Ithaca, NY: Cornell University Press.
+# - Fuhrmann, Matthew. 2012. Atomic Assistance: How "Atoms for Peace" Programs Cause Nuclear Insecurity. Ithaca, NY: Cornell University Press.
 
 # URLs ===================================================================================
 data_url <- "http://www.matthewfuhrmann.com/uploads/2/5/8/2/25820564/nca_dataset.dta"
